@@ -34,14 +34,9 @@ export default function TicketsPage() {
 
         {/* Intro */}
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
-          <p className="text-lg leading-relaxed text-slate-700 text-center mb-12">
+          <p className="text-lg leading-relaxed text-slate-700 text-center">
             Whether you join us for a single afternoon or the full series, each Cine-Salon gathering is designed to be a complete experience—film, wine, and conversation in an intimate setting.
           </p>
-          
-          {/* Givebutter Widget */}
-          <div className="max-w-2xl mx-auto">
-            <givebutter-widget id="j1XXPN"></givebutter-widget>
-          </div>
         </div>
 
         {/* Pricing Cards */}
@@ -89,7 +84,7 @@ export default function TicketsPage() {
               </p>
 
               <a
-                href="mailto:kcandaele@gmail.com?subject=Single Screening Reservation"
+                href="#givebutter-form"
                 className="block w-full bg-slate-900 text-white text-center py-3 px-6 rounded-lg font-semibold hover:bg-slate-800 transition-colors duration-300"
               >
                 Reserve Your Seat →
@@ -148,7 +143,7 @@ export default function TicketsPage() {
               </p>
 
               <a
-                href="mailto:kcandaele@gmail.com?subject=Full Series Pass Reservation"
+                href="#givebutter-form"
                 className="block w-full bg-amber-600 text-white text-center py-3 px-6 rounded-lg font-semibold hover:bg-amber-700 transition-colors duration-300"
               >
                 Join the Full Series →
@@ -183,6 +178,11 @@ export default function TicketsPage() {
             >
               kcandaele@gmail.com
             </a>
+          </div>
+
+          {/* Givebutter Widget */}
+          <div id="givebutter-form" className="max-w-2xl mx-auto mt-16">
+            <givebutter-widget id="j1XXPN"></givebutter-widget>
           </div>
         </div>
       </div>
