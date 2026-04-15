@@ -1,4 +1,14 @@
+import { useEffect } from 'react'
 import SEO from '../components/SEO'
+
+// Declare the custom Givebutter element for TypeScript
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      'givebutter-widget': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement> & { id?: string };
+    }
+  }
+}
 
 export default function TicketsPage() {
   return (
@@ -24,9 +34,14 @@ export default function TicketsPage() {
 
         {/* Intro */}
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
-          <p className="text-lg leading-relaxed text-slate-700 text-center">
+          <p className="text-lg leading-relaxed text-slate-700 text-center mb-12">
             Whether you join us for a single afternoon or the full series, each Cine-Salon gathering is designed to be a complete experience—film, wine, and conversation in an intimate setting.
           </p>
+          
+          {/* Givebutter Widget */}
+          <div className="max-w-2xl mx-auto">
+            <givebutter-widget id="j1XXPN"></givebutter-widget>
+          </div>
         </div>
 
         {/* Pricing Cards */}
