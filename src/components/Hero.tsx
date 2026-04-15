@@ -4,11 +4,11 @@ export default function Hero() {
       {/* Background image from La Dolce Vita - Trevi Fountain scene */}
       <div className="absolute inset-0">
         <img 
-          src="https://images.makeitglow.co/projects/cmmtst19o0005k0jziu9jjdda/a27808e3-2f46-46ce-8681-adb69732883b.webp" 
-          alt="La Dolce Vita Trevi Fountain" 
+          src="https://images.makeitglow.co/projects/cmmtst19o0005k0jziu9jjdda/013729ac-5d5a-4a61-a51e-10749855518e.webp" 
+          alt="Iconic Italian Cinema Scene" 
           className="h-full w-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/90 to-slate-950/60" />
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-950/40 via-slate-950/15 to-transparent" />
       </div>
       
       {/* Gradient orbs for depth */}
@@ -20,7 +20,7 @@ export default function Hero() {
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-sm font-semibold uppercase tracking-wider text-rose-400">
-            Every Sunday Evening
+            Every Sunday, 11:30 to 3:30 May 10--June 28  at The Electric Lodge, 1416 Electric Ave. Venice (Free Parking)
           </p>
           <h1 className="mt-4 text-5xl font-bold tracking-tight text-white sm:text-6xl lg:text-7xl">
             A Journey Through{' '}
@@ -33,7 +33,7 @@ export default function Hero() {
           </p>
           <p className="mt-6 text-lg leading-relaxed text-slate-300 sm:text-xl">
             Join Kerry Candaele for an intimate Sunday salon featuring classic and contemporary 
-            Italian films, fine wine, and engaging discussion about cinema, culture, and history.
+            Italian films, Italian wine, and engaging discussion about cinema, culture, and history.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a 

@@ -1,14 +1,14 @@
 import { useState } from 'react'
 
 interface NavigationProps {
-  currentPage: 'home' | 'schedule'
-  setCurrentPage: (page: 'home' | 'schedule') => void
+  currentPage: 'home' | 'schedule' | 'tickets'
+  setCurrentPage: (page: 'home' | 'schedule' | 'tickets') => void
 }
 
 export default function Navigation({ currentPage, setCurrentPage }: NavigationProps) {
   const [isOpen, setIsOpen] = useState(false)
   
-  const handleNavClick = (page: 'home' | 'schedule', hash?: string) => {
+  const handleNavClick = (page: 'home' | 'schedule' | 'tickets', hash?: string) => {
     setCurrentPage(page)
     setIsOpen(false)
     if (hash && page === 'home') {
@@ -28,7 +28,7 @@ export default function Navigation({ currentPage, setCurrentPage }: NavigationPr
           onClick={() => handleNavClick('home')}
           className="text-xl font-bold tracking-tight text-white hover:text-amber-400 transition-colors"
         >
-          Italian Film Salon
+          Cine-Salon
         </button>
         <div className="hidden items-center gap-8 md:flex">
           <button 
@@ -52,13 +52,21 @@ export default function Navigation({ currentPage, setCurrentPage }: NavigationPr
             About
           </button>
           <button 
+            onClick={() => handleNavClick('tickets')}
+            className={`text-sm font-medium transition-colors ${
+              currentPage === 'tickets' ? 'text-amber-400' : 'text-slate-300 hover:text-white'
+            }`}
+          >
+            Get Tickets
+          </button>
+          <button 
             onClick={() => handleNavClick('home', '#contact')}
             className="text-sm font-medium text-slate-300 transition-colors hover:text-white"
           >
             Contact
           </button>
           <a 
-            href="mailto:kerrycan8@gmail.com"
+            href="mailto:kcandaele@gmail.com"
             className="rounded-full bg-rose-600 px-5 py-2 text-sm font-semibold text-white transition-all hover:bg-rose-500 shadow-lg shadow-rose-500/30"
           >
             Join Us
@@ -88,6 +96,9 @@ export default function Navigation({ currentPage, setCurrentPage }: NavigationPr
             </button>
             <button onClick={() => handleNavClick('home', '#about')} className="text-left text-sm font-medium text-slate-300">
               About
+            </button>
+            <button onClick={() => handleNavClick('tickets')} className="text-left text-sm font-medium text-slate-300">
+              Get Tickets
             </button>
             <button onClick={() => handleNavClick('home', '#contact')} className="text-left text-sm font-medium text-slate-300">
               Contact

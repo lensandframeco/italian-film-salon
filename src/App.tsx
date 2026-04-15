@@ -5,9 +5,10 @@ import FilmTabs from './components/FilmTabs'
 import About from './components/About'
 import Footer from './components/Footer'
 import Schedule from './components/Schedule'
+import TicketsPage from './pages/TicketsPage'
 
 export default function App() {
-  const [currentPage, setCurrentPage] = useState<'home' | 'schedule'>('home')
+  const [currentPage, setCurrentPage] = useState<'home' | 'schedule' | 'tickets'>('home')
 
   return (
     <div className="min-h-screen bg-slate-950 antialiased">
@@ -19,9 +20,14 @@ export default function App() {
           <About />
           <Footer />
         </>
-      ) : (
+      ) : currentPage === 'schedule' ? (
         <>
           <Schedule />
+          <Footer />
+        </>
+      ) : (
+        <>
+          <TicketsPage />
           <Footer />
         </>
       )}

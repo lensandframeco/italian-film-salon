@@ -14,24 +14,24 @@ export default function About() {
             <div className="mt-6 space-y-4 text-base leading-relaxed text-slate-300">
               <p>
                 Every Sunday evening, film enthusiasts gather for an intimate cinematic experience 
-                that combines the art of Italian filmmaking with the warmth of Italian hospitality.
+                that combines the art of Italian filmmaking in a small, welcoming setting.
               </p>
               <p>
                 Hosted by Kerry Candaele, these salons feature carefully curated Italian films 
-                spanning from neorealist classics to contemporary masterpieces. Each screening is 
-                accompanied by fine Italian wine and followed by engaging discussions about the 
+                spanning from neorealist classics to contemporary . Each screening is 
+                accompanied by Italian wine and followed by engaging discussions about the 
                 film's cultural, historical, and artistic significance.
               </p>
               <p>
                 This isn't just a film screening—it's a journey through Italian culture, history, 
-                and the enduring power of cinema to illuminate the human experience.
+                and the enduring power of cinema to enhance our understanding of cinematic art in one country.
               </p>
             </div>
 
             <div className="mt-8 grid grid-cols-2 gap-6">
               <div className="rounded-xl border border-slate-800 bg-slate-900/50 p-6">
                 <div className="text-3xl font-bold text-rose-400">Every</div>
-                <div className="mt-1 text-sm text-slate-400">Sunday Evening</div>
+                <div className="mt-1 text-sm text-slate-400">Sunday 11:30 to 3:30</div>
               </div>
               <div className="rounded-xl border border-slate-800 bg-slate-900/50 p-6">
                 <div className="text-3xl font-bold text-rose-400">Wine</div>
