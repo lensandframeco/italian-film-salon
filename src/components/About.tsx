@@ -31,7 +31,7 @@ export default function About() {
             <div className="mt-8 grid grid-cols-2 gap-6">
               <div className="rounded-xl border border-slate-800 bg-slate-900/50 p-6">
                 <div className="text-3xl font-bold text-rose-400">Every</div>
-                <div className="mt-1 text-sm text-slate-400">Sunday 11:30 to 3:30</div>
+                <div className="mt-1 text-sm text-slate-400">Sunday 12:00 to 3:00</div>
               </div>
               <div className="rounded-xl border border-slate-800 bg-slate-900/50 p-6">
                 <div className="text-3xl font-bold text-rose-400">Wine</div>
