@@ -22,14 +22,24 @@ const films = [
     runtime: '174 min'
   },
   {
-    id: '8-1-2',
-    title: '8½',
-    year: '1963',
-    director: 'Federico Fellini',
-    image: 'https://s3.amazonaws.com/criterion-production/films/d0f7c6a4cd2e43dd2b600eb237e4d663/o7PFuBmGRjXCJfkKyQfvHOIwseP_original.jpg',
-    description: 'Fellini\'s autobiographical masterpiece about a film director suffering from creative block. A surreal journey through memory, fantasy, and reality that revolutionized cinema with its dreamlike narrative structure and visual poetry.',
-    themes: ['Surrealism', 'Creativity & Artistic Crisis', 'Autobiography', 'Dreams vs Reality'],
-    runtime: '138 min'
+    id: 'open-city',
+    title: 'Rome, Open City',
+    year: '1945',
+    director: 'Roberto Rossellini',
+    image: 'https://s3.amazonaws.com/criterion-production/films/59cb0ed1a2b0c8c50e5b5f60c8d83df8/HYDxj9djWHjmfJW8qHDPCbcsjWX_original.jpg',
+    description: 'A landmark of Italian neorealism, filmed in the immediate aftermath of WWII. This raw, powerful film depicts the Nazi occupation of Rome and the resistance movement, blending documentary realism with dramatic intensity.',
+    themes: ['Neorealism', 'WWII', 'Resistance', 'Sacrifice'],
+    runtime: '103 min'
+  },
+  {
+    id: 'l-avventura',
+    title: 'L\'Avventura',
+    year: '1960',
+    director: 'Michelangelo Antonioni',
+    image: 'https://s3.amazonaws.com/criterion-production/films/7d49a9f0c26b8cb7d3e43d7fafcfb69d/PXSfEo9PMPpcbvk6OTkCwh0Dk63_original.jpg',
+    description: 'Antonioni\'s groundbreaking exploration of alienation and ennui among the Italian bourgeoisie. When a woman disappears on a Mediterranean island, the search gradually fades as her lover and best friend drift into an uneasy relationship.',
+    themes: ['Modernist Cinema', 'Alienation', 'Existential Emptiness', 'The Italian Bourgeoisie'],
+    runtime: '143 min'
   }
 ]
 

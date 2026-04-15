@@ -2,19 +2,6 @@ export default function Schedule() {
   const films = [
     {
       week: 1,
-      title: "Cinema Paradiso",
-      director: "Giuseppe Tornatore",
-      year: 1988,
-      theme: "Introduction to Italian Cinema, From Neorealism to the Present",
-      purpose: "A welcoming first film that celebrates cinema itself.",
-      topics: [
-        "Why Italy became central to world cinema",
-        "How to watch films critically"
-      ],
-      image: "https://images.makeitglow.co/projects/cmmtst19o0005k0jziu9jjdda/a3e6700f-f9a1-4125-8644-039f2deec21f.jpg"
-    },
-    {
-      week: 2,
       title: "Rome, Open City",
       director: "Roberto Rossellini",
       year: 1945,
@@ -26,7 +13,7 @@ export default function Schedule() {
       image: "https://images.makeitglow.co/projects/cmmtst19o0005k0jziu9jjdda/b0bda8c8-5c39-4d37-8781-6febb838dec9.jpg"
     },
     {
-      week: 3,
+      week: 2,
       title: "Bicycle Thieves",
       director: "Vittorio De Sica",
       year: 1948,
@@ -38,7 +25,7 @@ export default function Schedule() {
       image: "https://images.makeitglow.co/projects/cmmtst19o0005k0jziu9jjdda/889b1146-c8f1-446a-a099-c1ecc94734f7.jpg"
     },
     {
-      week: 4,
+      week: 3,
       title: "La Strada",
       director: "Federico Fellini",
       year: 1954,
@@ -50,7 +37,7 @@ export default function Schedule() {
       image: "https://images.makeitglow.co/projects/cmmtst19o0005k0jziu9jjdda/54148e8a-5dac-4f44-bd06-c0edf293aed3.jpg"
     },
     {
-      week: 5,
+      week: 4,
       title: "La Dolce Vita",
       director: "Federico Fellini",
       year: 1960,
@@ -59,10 +46,10 @@ export default function Schedule() {
         "Celebrity culture",
         "Media and spectacle"
       ],
-      image: "https://images.makeitglow.co/projects/cmmtst19o0005k0jziu9jjdda/180851db-1ba9-4be8-8f3a-29edab41d17d.jpg"
+      image: "https://images.makeitglow.co/projects/cmmtst19o0005k0jziu9jjdda/b6388280-ffda-4335-a537-159802956dbd.jpg"
     },
     {
-      week: 6,
+      week: 5,
       title: "L'Avventura",
       director: "Michelangelo Antonioni",
       year: 1960,
@@ -74,7 +61,7 @@ export default function Schedule() {
       image: "https://images.makeitglow.co/projects/cmmtst19o0005k0jziu9jjdda/fd174a2c-ff34-4840-8350-5283e445c528.jpg"
     },
     {
-      week: 7,
+      week: 6,
       title: "The Conformist",
       director: "Bernardo Bertolucci",
       year: 1970,
@@ -87,7 +74,7 @@ export default function Schedule() {
       image: "https://images.makeitglow.co/projects/cmmtst19o0005k0jziu9jjdda/3b0f4329-58e3-4284-9cc3-ffa06a087236.jpg"
     },
     {
-      week: 8,
+      week: 7,
       title: "Seven Beauties",
       director: "Lina Wertmüller",
       year: 1975,
@@ -99,7 +86,7 @@ export default function Schedule() {
       image: "https://images.makeitglow.co/projects/cmmtst19o0005k0jziu9jjdda/1fd49a60-fa38-47ed-ab3d-b9f75f646ded.jpg"
     },
     {
-      week: 9,
+      week: 8,
       title: "Happy as Lazzaro",
       director: "Alice Rohrwacher",
       year: 2018,
@@ -121,7 +108,7 @@ export default function Schedule() {
             Film Schedule
           </h1>
           <p className="text-xl sm:text-2xl text-amber-100 max-w-3xl leading-relaxed">
-            A nine-week journey through Italian cinema, from neorealism to the present
+            An eight-week journey through Italian cinema, from neorealism to the present
           </p>
         </div>
       </div>
