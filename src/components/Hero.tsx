@@ -19,7 +19,7 @@ export default function Hero() {
       
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-wider text-rose-400">
+          <p className="text-sm font-semibold uppercase tracking-wider text-orange-400">
             Every Sunday, 11:30 to 3:30 May 10-June 28 at The Electric Lodge in Venice
           </p>
           <h1 className="mt-4 text-5xl font-bold tracking-tight text-white sm:text-6xl lg:text-7xl">
