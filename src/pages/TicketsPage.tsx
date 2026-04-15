@@ -2,7 +2,10 @@ import { useState } from 'react'
 import SEO from '../components/SEO'
 
 const FORMSPREE_ENDPOINT = 'https://formspree.io/f/meeverro'
-const VENMO_URL = 'https://venmo.com/u/Kerry-Candaele'
+function venmoUrl(amount: number, ticketType: 'single' | 'series') {
+  const note = ticketType === 'series' ? 'Cine-Salon Full Series Pass' : 'Cine-Salon Single Screening'
+  return `https://venmo.com/?txn=pay&recipients=Kerry-Candaele&amount=${amount}&note=${encodeURIComponent(note)}`
+}
 
 const SUNDAYS = [
   'Sunday, May 10',
@@ -215,7 +218,7 @@ export default function TicketsPage() {
                 Kerry will confirm your reservation shortly. To complete your booking, please send ${amount} via Venmo.
               </p>
               <a
-                href={VENMO_URL}
+                href={venmoUrl(amount, ticketType)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center bg-amber-600 text-white text-lg font-semibold px-8 py-4 rounded-full shadow-lg shadow-amber-500/30 hover:bg-amber-700 hover:-translate-y-0.5 hover:shadow-xl hover:shadow-amber-500/40 transition-all duration-300"
