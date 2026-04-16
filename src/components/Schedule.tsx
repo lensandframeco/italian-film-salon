@@ -46,7 +46,7 @@ export default function Schedule() {
         "Celebrity culture",
         "Media and spectacle"
       ],
-      image: "https://images.makeitglow.co/projects/cmmtst19o0005k0jziu9jjdda/b6388280-ffda-4335-a537-159802956dbd.jpg"
+      image: "https://images.makeitglow.co/projects/cmmtst19o0005k0jziu9jjdda/63473775-0a9a-4e0b-8b39-f1351c22566a.webp"
     },
     {
       week: 5,
@@ -71,7 +71,7 @@ export default function Schedule() {
         "Cinematic style and color"
       ],
       note: "Often the most visually stunning film in the course.",
-      image: "https://images.makeitglow.co/projects/cmmtst19o0005k0jziu9jjdda/3b0f4329-58e3-4284-9cc3-ffa06a087236.jpg"
+      image: "https://images.makeitglow.co/projects/cmmtst19o0005k0jziu9jjdda/2863eb1d-7980-412e-9c1a-d9eaddf532ab.jpg"
     },
     {
       week: 7,
@@ -83,7 +83,7 @@ export default function Schedule() {
         "Survival and morality",
         "Dark comedy and politics"
       ],
-      image: "https://images.makeitglow.co/projects/cmmtst19o0005k0jziu9jjdda/1fd49a60-fa38-47ed-ab3d-b9f75f646ded.jpg"
+      image: "https://images.makeitglow.co/projects/cmmtst19o0005k0jziu9jjdda/e47325aa-0409-4dba-92de-773d83c0313b.jpg"
     },
     {
       week: 8,
@@ -95,7 +95,7 @@ export default function Schedule() {
         "Rural Italy",
         "Myth and modern capitalism"
       ],
-      image: "https://images.unsplash.com/photo-1574267432644-f74f8ec0ce56?w=800&h=600&fit=crop"
+      image: "https://images.makeitglow.co/projects/cmmtst19o0005k0jziu9jjdda/f23699e8-eae3-44bc-9d60-c6ff292f523d.jpg"
     }
   ]
 
@@ -124,11 +124,11 @@ export default function Schedule() {
               <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
                 {/* Image */}
                 <div className={`order-1 ${film.week % 2 === 0 ? 'lg:order-2' : ''}`}>
-                  <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-amber-900/20 aspect-[4/3]">
+                  <div className={`relative rounded-2xl overflow-hidden shadow-2xl shadow-amber-900/20 aspect-[4/3] ${film.week === 5 || film.week === 3 || film.week === 7 || film.week === 8 ? 'bg-black' : ''}`}>
                     <img 
                       src={film.image} 
                       alt={film.title}
-                      className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      className={`h-full w-full transition-transform duration-500 group-hover:scale-105 ${film.week === 5 || film.week === 3 || film.week === 7 || film.week === 8 ? 'object-contain' : 'object-cover'}`}
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
                     <div className="absolute bottom-6 left-6 right-6">

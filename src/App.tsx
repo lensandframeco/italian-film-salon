@@ -16,7 +16,7 @@ export default function App() {
       {currentPage === 'home' ? (
         <>
           <Hero />
-          <FilmTabs />
+          <FilmTabs setCurrentPage={setCurrentPage} />
           <About />
           <Footer />
         </>

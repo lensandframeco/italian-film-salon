@@ -43,7 +43,11 @@ const films = [
   }
 ]
 
-export default function FilmTabs() {
+interface FilmTabsProps {
+  setCurrentPage: (page: 'home' | 'schedule' | 'tickets') => void
+}
+
+export default function FilmTabs({ setCurrentPage }: FilmTabsProps) {
   const [activeTab, setActiveTab] = useState('bicycle-thieves')
   const activeFilm = films.find(f => f.id === activeTab) || films[0]
 
@@ -125,12 +129,12 @@ export default function FilmTabs() {
               </div>
 
               <div className="mt-8 flex gap-4">
-                <a
-                  href="#contact"
+                <button
+                  onClick={() => setCurrentPage('tickets')}
                   className="inline-flex items-center rounded-full bg-rose-600 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-rose-500/30 transition-all hover:bg-rose-500 hover:-translate-y-0.5"
                 >
                   RSVP for Screening
-                </a>
+                </button>
               </div>
             </div>
           </div>
