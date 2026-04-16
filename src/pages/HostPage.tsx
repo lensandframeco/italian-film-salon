@@ -41,7 +41,7 @@ export default function HostPage() {
               <h2 className="text-3xl sm:text-4xl font-bold text-stone-900 mb-8">Kerry Candaele</h2>
               
               <p>
-                Kerry Candaele is a Canadian-American documentary filmmaker, writer, music producer, and educator. Candaele has worked as a history educator and served as a Richard Hofstadter and President's Fellow in a Ph.D. program at Columbia University.
+                Kerry Candaele is a Canadian-American documentary filmmaker, writer, music producer, and educator. Candaele has worked as a history educator and served as a Richard Hofstadter and President's Fellow in the department of history at Columbia University.
               </p>
 
               <p>

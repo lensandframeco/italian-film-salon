@@ -8,7 +8,7 @@ export default function Schedule() {
       theme: "The Birth of Neorealism",
       topics: [
         "WWII and resistance",
-        "Realism and politics"
+        "What is Neorealism?"
       ],
       image: "https://images.makeitglow.co/projects/cmmtst19o0005k0jziu9jjdda/b0bda8c8-5c39-4d37-8781-6febb838dec9.jpg"
     },
@@ -19,8 +19,8 @@ export default function Schedule() {
       year: 1948,
       theme: "The Neorealist Masterpiece",
       topics: [
-        "Poverty and dignity",
-        "Non-professional actors"
+        "Post-Fascist Italy and its discontents",
+        "One Battle After Another, Italian Neorealist Style"
       ],
       image: "https://images.makeitglow.co/projects/cmmtst19o0005k0jziu9jjdda/889b1146-c8f1-446a-a099-c1ecc94734f7.jpg"
     },
