@@ -13,4 +13,4 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-Sitemap: https://www.cine-salon.org/sitemap.xml
+Sitemap: https://www.makeitglow.co/sites/italian-film-salon/sitemap.xml
