@@ -1,6 +1,6 @@
-# Kerry Candaele's Italian Film Salon
+# Cine-Salon
 
-> A promotional page for Kerry Candaele's Sunday Italian film screening salon featuring wine, discussion, and a journey through Italian cinema history.
+> Cine-Salon is an intimate Sunday film series at The Electric Lodge in Venice, CA. Join Kerry Candaele for classic and contemporary Italian cinema, wine, and discussion -- every Sunday 12-3pm, May 10 to June 28.
 
 ## URL
 https://www.cine-salon.org
